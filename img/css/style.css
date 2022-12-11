@@ -1,0 +1,185 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f7fa;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 1400px;
+    background-color: #fff;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #1E2939;
+    width: 1400px;
+}
+
+.navigation-list {
+    display: flex;
+    justify-content: flex-end ;
+    align-items: center;
+    list-style: none;
+}
+
+.navigation-link {
+    text-decoration: none;
+    padding: 0 15px;
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #fff;
+    transition: 0.5c;
+}
+
+.navigation-link:hover{
+    color: #595959;
+}
+
+.my-own-data{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 35px 30px;
+}
+
+.my-own-photo{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.my-own-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.my-name{
+    font-style: normal;
+    line-height: 55px;
+    font: 45px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 25px;
+}
+
+.my-profesion{
+    font-style: normal;
+    line-height: 17px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px
+}
+
+.main-content-conteiner{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: #fff;
+    margin: 40px auto; 
+}
+
+.main-content-section{
+    margin-bottom: 40px;
+}
+
+.main-content-title{
+    font-style: normal;
+    line-height: 27px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px; 
+}
+
+.main-content-discription{
+    width: 300px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.my-project-list{
+    padding: 0 0 0 17px;
+}
+
+.my-project-item{
+    color: #000;
+    font-weight: bold
+}
+
+.my-project-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.my-project-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-left: 5px;
+}
+
+.my-work-position{
+    color: #FB6D3A;
+    font-weight: bold;
+}
+
+.my-work-experience-period{
+    font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+color: #A8A8A8;
+margin-bottom: 10px;
+}
+
+.my-education-university{
+    font-style: normal;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17px;
+}
+
+.my-education-faculty{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+}
+
+.my-education-period{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 10px;   
+}
+
+.sidebar-section{
+    background-color: #1E2939;
+    width: 370px;
+    padding: 40px 0;
+}
